@@ -17,6 +17,14 @@ Install NERDTree:
 cd ~/.vim/bundle
 git clone https://github.com/scrooloose/nerdtree.git
 
+Put this in your ~/.bashrc:
+
+if [ -f /etc/bash_completion ]; then
+    . /etc/bash_completion
+    PSGIT='\[\033[01;31m\]$(__git_ps1 "{%s}")\[\033[00m\]'
+    PS1="${PS1}${PSGIT} "
+fi
+
 Alias node_modules
 ------------------
 
