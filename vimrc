@@ -10,7 +10,9 @@ set novisualbell
 set showmatch
 set mat=2
 set nopaste
-set mouse=a
+if has("mouse")
+    set mouse=a
+endif
 set ttymouse=xterm2
 
 " Use spaces instead of tabs
