@@ -1,12 +1,14 @@
-workspace
-=========
+# workspace
 
 Saved files with vim config and add-ons
 
-Steps to setup
-------------------
+## Reference
+[How to work with multiple github
+accounts](https://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574) (like from work and home)
+
+## Steps to setup
 - Copy this `vimrc` file to ~/.vimrc
-- [Install pathogen](http://www.vim.org/scripts/script.php?script_id=2332):
+- [Install pathogen](http://www.vim.org/scripts/script.php?script_id=2332) as follows
 ```
 mkdir -p ~/.vim/autoload ~/.vim/bundle 
 curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
