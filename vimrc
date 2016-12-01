@@ -28,8 +28,9 @@ set ai "Auto indent
 set si "Smart indent
 set wrap "Wrap lines
 
-" Show linenumber
+" Show linenumber and col number``
 set number
+set ruler
 
 colors zenburn
 
