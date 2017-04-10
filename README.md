@@ -17,10 +17,18 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 Copy zenburn color scheme:
 `cp zenburn.vim ~/.vim/colors/.`
 
-Install NERDTree:
+### Install Vim Plugins
 ```
 cd ~/.vim/bundle
+```
+NERDTree:
+```
 git clone https://github.com/scrooloose/nerdtree.git
+```
+Vim [Fugitive](https://github.com/tpope/vim-fugitive#installation) (Git helpers):
+```
+git clone git://github.com/tpope/vim-fugitive.git
+vim -u NONE -c "helptags vim-fugitive/doc" -c q
 ```
 
 Put this in your ~/.bashrc:
