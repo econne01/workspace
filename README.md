@@ -41,7 +41,11 @@ fi
 
 Alias node_modules
 ------------------
+Install [add-local-binaries-to-path](https://www.npmjs.com/package/add-local-binaries-to-path)
 
+    npm i -g add-local-binaries-to-path
+
+OR
 View [StackOverflow post](http://stackoverflow.com/questions/9679932/how-to-use-package-installed-locally-in-node-modules)
 Add to ~/.bash_profile
 alias npm-exec='PATH=$(npm bin):$PATH'
