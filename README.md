@@ -3,8 +3,15 @@
 Saved files with vim config and add-ons
 
 ## Reference
+### Multiple Git Users
 [How to work with multiple github
 accounts](https://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-and-multiple-accounts--net-22574) (like from work and home)
+
+To start a new project with a "different" github account, first create the repo on github.com
+
+  git clone git@github.com:econne01/${PROJECT_NAME}.git
+  git remote set-url origin git@github-personal.com:econne01/${PROJECT_NAME}.git
+  git config --add user.email eric.connelly08@gmail.com
 
 ## Steps to setup
 - Copy this `vimrc` file to ~/.vimrc
