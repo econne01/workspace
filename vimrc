@@ -20,6 +20,8 @@ set expandtab
 set smarttab
 set shiftwidth=4
 set tabstop=4
+autocmd Filetype javascript setlocal ts=2 sw=2 expandtab
+autocmd Filetype json setlocal ts=2 sw=2 expandtab
 
 " Linebreak on 120 chars
 set lbr
