@@ -23,6 +23,14 @@ set tabstop=4
 autocmd Filetype javascript setlocal ts=2 sw=2 expandtab
 autocmd Filetype json setlocal ts=2 sw=2 expandtab
 
+" Allow code folding based on indentation
+" (And don't fold everything by default on file opens)
+set foldmethod=indent
+augroup OpenAllFoldsOnFileOpen
+    autocmd!
+    autocmd BufRead * normal zR
+augroup END
+
 " Linebreak on 120 chars
 set lbr
 set tw=120
