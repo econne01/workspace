@@ -9,9 +9,11 @@ accounts](https://code.tutsplus.com/tutorials/quick-tip-how-to-work-with-github-
 
 To start a new project with a "different" github account, first create the repo on github.com
 
+```
   git clone git@github.com:econne01/${PROJECT_NAME}.git
   git remote set-url origin git@github-personal.com:econne01/${PROJECT_NAME}.git
   git config --add user.email eric.connelly08@gmail.com
+```
 
 ## Steps to setup
 - Copy this `vimrc` file to ~/.vimrc
